@@ -69,3 +69,16 @@ footer{
   grid-column-end: 5;
 	text-align: center;
 }
+
+
+/*start media queries*/
+@media all and (max-width:750px){
+	.one-third, .two-third, .three-third{
+		grid-column-start: 1;
+	  grid-column-end: 2;
+	}
+	main, aside{
+		grid-column-start: 1;
+	  grid-column-end: 5;
+	}
+}
