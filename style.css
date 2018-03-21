@@ -1,0 +1,71 @@
+body{
+	margin: 0 auto;
+	min-height: 100vh;
+}
+
+.grid{
+	display: grid;
+	grid-gap: 30px;
+}
+
+nav{
+	background: yellow;
+	padding:50px;
+	grid-column-start: 1;
+  grid-column-end: 5;
+	text-align: center;
+}
+header{
+	background: red;
+	padding:50px;
+	grid-column-start: 1;
+  grid-column-end: 5;
+	text-align: center;
+}
+
+main{
+	background: green;
+	padding:50px;
+	grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+aside{
+	background: orange;
+	padding:50px;
+	grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.row{
+	display: grid;
+	grid-column-start: 1;
+  grid-column-end: 5;
+	grid-gap: 30px;
+}
+
+.one-third, .two-third, .three-third{
+	background: purple;
+	min-height: 100px;
+	padding:50px;
+	grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.two-third{
+	grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.three-third{
+	grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+footer{
+	background: blue;
+	padding:50px;
+	grid-column-start: 1;
+  grid-column-end: 5;
+	text-align: center;
+}
